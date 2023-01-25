@@ -34,15 +34,22 @@ p {
   font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
     "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-.certificate-row {
+.certificate-row1 {
   position: relative;
   width: 800px;
   max-width: 90%;
-  margin: 25px auto 25px auto;
+  margin: 50px auto 25px auto;
   text-align: left;
   line-height: 2;
 }
-
+.certificate-row2 {
+  position: relative;
+  width: 800px;
+  max-width: 90%;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
 .distinguishing {
   width: 800px;
   max-width: 90%;
@@ -55,8 +62,8 @@ p {
     "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .leftimage {
-  width: 175px;
-  max-width: 50%;
+  width: 140px;
+  max-width: 30%;
   float: left;
   padding-right: 30px;
 }
@@ -76,8 +83,8 @@ p {
   line-height: 2;
 }
 .rightimage {
-  width: 175px;
-  max-width: 50%;
+  width: 140px;
+  max-width: 30%;
   float: right;
   padding-left: 30px;
 }
@@ -107,10 +114,17 @@ p {
   position: relative;
   width: 150px;
 }
-.skill-row {
+.skill-row1 {
   width: 800px;
   max-width: 90%;
-  margin: 50px auto 50px auto;
+  margin: 50px auto 25px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-row2 {
+  width: 800px;
+  max-width: 90%;
+  margin: 0 auto 0px auto;
   text-align: left;
   line-height: 2;
 }
