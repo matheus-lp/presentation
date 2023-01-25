@@ -55,11 +55,10 @@ p {
     "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .leftimage {
-  width: 200px;
-  max-width: 40%;
+  width: 175px;
+  max-width: 50%;
   float: left;
   padding-right: 30px;
-  padding-bottom: 30px;
 }
 
 .link {
@@ -77,11 +76,10 @@ p {
   line-height: 2;
 }
 .rightimage {
-  width: 200px;
-  max-width: 40%;
+  width: 175px;
+  max-width: 50%;
   float: right;
   padding-left: 30px;
-  padding-bottom: 30px;
 }
 .top1 {
   background-color: #e0ebe8;
