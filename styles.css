@@ -1,4 +1,15 @@
+a {
+  color: #40514e;
+  font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #e4f0f0;
+}
+
 body {
+  color: #40514e;
   margin: 0;
   height: 100vh;
   text-align: center;
@@ -28,11 +39,42 @@ p {
   font-size: 120%;
   font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
     "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height: 2;
 }
 /*************************** CLASS ************************/
+
+.bottom-container {
+  margin: 50px auto;
+  padding: 20px 0 20px;
+  background-color: #e0ebe8;
+}
+
 .btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
   font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
     "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
 .certificate-row1 {
   position: relative;
@@ -40,7 +82,6 @@ p {
   max-width: 90%;
   margin: 50px auto 25px auto;
   text-align: left;
-  line-height: 2;
 }
 .certificate-row2 {
   position: relative;
@@ -48,14 +89,16 @@ p {
   max-width: 90%;
   margin: 0 auto 50px auto;
   text-align: left;
-  line-height: 2;
+}
+.copyright {
+  padding: 20px 0;
+  font-size: 0.75rem;
 }
 .distinguishing {
-  width: 800px;
+  width: 500px;
   max-width: 90%;
   margin: 50px auto 50px auto;
   text-align: center;
-  line-height: 2;
 }
 .footer-link {
   font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
@@ -74,13 +117,13 @@ p {
     "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .profile {
-  width: 600px;
+  width: 400px;
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
-  line-height: 2;
 }
 .rightimage {
   width: 140px;
@@ -119,14 +162,12 @@ p {
   max-width: 90%;
   margin: 50px auto 25px auto;
   text-align: left;
-  line-height: 2;
 }
 .skill-row2 {
   width: 800px;
   max-width: 90%;
   margin: 0 auto 0px auto;
   text-align: left;
-  line-height: 2;
 }
 
 /*************************** IDs ************************/
