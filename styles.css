@@ -7,14 +7,12 @@ a {
 a:hover {
   color: #e4f0f0;
 }
-
 body {
   color: #40514e;
   margin: 0;
   height: 100vh;
   text-align: center;
 }
-
 h1 {
   margin-left: auto;
   margin-right: auto;
@@ -24,7 +22,6 @@ h1 {
   font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
     "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-
 h2 {
   color: #45b29a;
   margin-left: auto;
@@ -34,7 +31,6 @@ h2 {
   font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
     "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-
 p {
   font-size: 120%;
   font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
@@ -42,13 +38,11 @@ p {
   line-height: 2;
 }
 /*************************** CLASS ************************/
-
 .bottom-container {
   margin: 50px auto;
   padding: 20px 0 20px;
   background-color: #e0ebe8;
 }
-
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -66,7 +60,6 @@ p {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
-
 .btn:hover {
   background: #30e3cb;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -110,7 +103,6 @@ p {
   float: left;
   padding-right: 30px;
 }
-
 .link {
   display: block;
   font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light",
@@ -181,21 +173,18 @@ p {
   width: 70px;
   height: 70px;
 }
-
 #cloud_top {
   position: relative;
   left: 30%;
   top: 30%;
   width: 150px;
 }
-
 #cloud_bottom {
   position: relative;
   right: 30%;
   width: 150px;
   max-width: 90%;
 }
-
 #introduction {
   width: 350px;
   position: relative;
@@ -203,7 +192,6 @@ p {
   margin-right: auto;
   margin-top: 0;
 }
-
 #land {
   width: 80%;
   background-color: #e0ebe8;
